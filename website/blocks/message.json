@@ -1,0 +1,59 @@
+[
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "You have a new holiday request:\n*<fakeLink.toEmployeeProfile.com|Harry Wright - New holiday request>*"
+		}
+	},
+	{
+		"type": "section",
+		"fields": [
+			{
+				"type": "mrkdwn",
+				"text": "*From:*\n15/12/1995\n"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Period:*\nAll day"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*To:*\n15/12/1995"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Period:*\nAll day"
+			},
+			{
+				"type": "mrkdwn",
+				"text": "*Description:*\nGoing to the beach"
+			}
+		]
+	},
+	{
+		"type": "actions",
+		"elements": [
+			{
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"emoji": true,
+					"text": "Approve"
+				},
+				"style": "primary",
+				"value": "approve"
+			},
+			{
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"emoji": true,
+					"text": "Deny"
+				},
+				"style": "danger",
+				"value": "deny"
+			}
+		]
+	}
+]
